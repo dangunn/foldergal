@@ -7,3 +7,29 @@ It requires the PIL
 
 the output image size is MAX_HEIGHT and MAX_WIDTH variables in the resize_image.py  you can adjust those to suit your needs
 
+you need a originals folder containing folders that contain jpg images, it uses this as reference.
+e.g
+originals/Animals/Alpacas.jpg
+originals/Animals/Heads in the Clouds .jpg
+originals/Animals/Red River Hog.jpg
+originals/Apes/Aux Pax Aut Bellum.jpg
+originals/Apes/Concert.jpg
+originals/Music/Death Letter.jpg
+originals/Music/Strictly Blue Grass.JPG
+originals/Music/Waits.JPG
+originals/Music/Young.jpg
+
+will generate:
+
+staging/Animals.html
+staging/Apes.html
+staging/Music.html
+staging/img/Alpacas.jpg
+staging/img/Aux Pax Aut Bellum.jpg
+staging/img/Death Letter.jpg
+staging/img/Heads in the Clouds .jpg
+staging/img/Red River Hog.jpg
+staging/img/Concert.jpg
+staging/img/Young.jpg
+staging/img/Waits.jpg
+
