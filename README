@@ -33,3 +33,7 @@ staging/img/Concert.jpg
 staging/img/Young.jpg
 staging/img/Waits.jpg
 
+RUNNING:
+
+type "make gallery"
+this will generate files in staging.  Just open the htmls with your browser
