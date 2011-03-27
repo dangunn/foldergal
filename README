@@ -1,0 +1,9 @@
+This is really a combination of scripts I found elsewhere
+I wrote make_gallery.sh to sew them together
+
+the gallery template was from creative commons,
+the python script to resize images was from pythonware
+It requires the PIL
+
+the output image size is MAX_HEIGHT and MAX_WIDTH variables in the resize_image.py  you can adjust those to suit your needs
+
